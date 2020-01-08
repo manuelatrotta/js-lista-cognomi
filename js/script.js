@@ -15,4 +15,4 @@ for (var i=0; i<cognomi.length; i++){
 var indices = [];
 var position = cognomi.indexOf(cognomeUtente) + 1;
 console.log(position);
-document.getElementById('cognome_utente').innerHTML ='sei in posizione:' + position + 'nella lista';
+document.getElementById('cognome_utente').innerHTML ='sei in posizione:' + ' '+ position + ' '+ 'nella lista';
